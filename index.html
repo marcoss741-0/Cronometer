@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <title>Cronometer</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="numbers">
+        <div class="circle">
+          <span>00:00:00:00</span>
+        </div>
+      </div>
+      <div class="buttons">
+        <div>
+          <button class="reset-btn">
+            <i class="fa-solid fa-rotate-left"></i>
+          </button>
+        </div>
+        <div>
+          <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+        </div>
+
+        <div>
+          <button class="lap-btn"><i class="fa-solid fa-flag"></i></button>
+        </div>
+      </div>
+
+      <div class="laps-container">
+        <div class="lap"></div>
+      </div>
+    </div>
+
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
