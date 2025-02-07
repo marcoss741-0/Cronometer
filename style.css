@@ -8,7 +8,7 @@
 }
 
 body {
-  background: linear-gradient(120deg, #334d56, #222);
+  background: linear-gradient(120deg, #42636d, #8e8e8e);
   color: #fff;
   width: 100vw;
   height: 100vh;
@@ -45,7 +45,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 3px solid #136027;
+  border: 3px solid #134a60;
   width: 100%;
   height: 300px;
   padding: 10px;
@@ -92,7 +92,7 @@ body {
 
 .lap {
   padding: 5px;
-  border-bottom: 1px solid #136027; /* Adiciona uma linha separadora */
+  border-bottom: 1px solid #134a60; /* Adiciona uma linha separadora */
 }
 
 /* Estiliza a barra de rolagem */
@@ -105,9 +105,9 @@ body {
 }
 
 .laps-container::-webkit-scrollbar-thumb {
-  background: #136027;
+  background: #134a60;
 }
 
 .laps-container::-webkit-scrollbar-thumb:hover {
-  background: #136027;
+  background: #134a60;
 }
